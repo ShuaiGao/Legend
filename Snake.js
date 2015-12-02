@@ -35,9 +35,9 @@ for(i in wall){
     ctx.strokeRect(wall[i][0]*BOXSTEP, wall[i][1]*BOXSTEP, BOXSIDE, BOXSIDE);
 }
 ctx.stroke();
-snake.autoMove()
+//snake.autoMove()
 
-//snake.moveDirection();
+snake.moveDirection();
 //lists = [{'x':2,'y':3},{'x':2,'y':4}]
 //paintSomePoint(lists);
 //ctx.beginPath();
